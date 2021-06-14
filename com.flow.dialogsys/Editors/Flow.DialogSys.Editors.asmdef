@@ -1,0 +1,17 @@
+{
+    "name": "Flow.DialogSys.Editors",
+    "references": [
+        "Flow.DialogSys.Plugins",
+        "Flow.DialogSys.Scripts"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

@@ -1,0 +1,25 @@
+{
+    "name": "com.flow.dialogsys",
+    "version": "1.0.1",
+    "displayName": "DialogSys",
+    "description": "This plugin make possible use the dialog system DialogSys on your project",
+    "unity": "2018.4",
+    "unityRelease": "23f1",
+    "dependencies": {
+        "com.unity.textmeshpro": "1.4.1"    
+   },
+   "keywords": [
+      "dialog",
+      "dialog system",
+      "chat",
+      "conversation",
+      "story",
+      "dialogue",
+      "interaction"
+    ],
+    "author": {
+      "name": "Flow",
+      "email": "dougn7@gmail.com",
+      "url": "https://www.flow.com"
+    }
+  }
