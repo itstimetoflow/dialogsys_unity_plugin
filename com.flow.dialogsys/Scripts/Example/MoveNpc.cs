@@ -22,7 +22,7 @@ public class MoveNpc : MonoBehaviour
     public GameObject goingTo;
 
     public GameObject CubeLookAt;
-    public GameObject Player;
+    private GameObject Player;
     public float smoothRotation = 10f;
     public Quaternion angleToRotateWhenTalk;
     //public LookAtCam lookAtCam;
@@ -84,6 +84,12 @@ public class MoveNpc : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         goingTo = pointA;
+
+        if (Player == null)
+        {
+            Debug.LogWarning("Player is null");
+            Player = GameObject.Find("Player");
+        }
 
     }
 

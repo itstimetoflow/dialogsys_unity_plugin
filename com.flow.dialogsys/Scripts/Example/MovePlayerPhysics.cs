@@ -25,7 +25,9 @@ public class MovePlayerPhysics : MonoBehaviour
     [HideInInspector]
     public GameObject otherEntityToTalk = null;
 
+    [HideInInspector]
     public DialogSysComp.DSysComponent DSysComp;
+    public string DSysCompName = "DialogSystem";
 
     public Rigidbody rb;
 
@@ -91,6 +93,8 @@ public class MovePlayerPhysics : MonoBehaviour
 
         //lastMainObjetRotation = rb.rotation;
         qTo = transform.rotation;
+
+        DSysComp = GameObject.Find(DSysCompName).GetComponent<DSysComponent>();
 
     }
 
@@ -529,7 +533,7 @@ public class MovePlayerPhysics : MonoBehaviour
                 {
                     if (playerTriggerTalkFront.DSysComp.EntitiesComponent.Count > 0)
                     {
-                        Debug.Log("EntitiesComponent.Count: " + playerTriggerTalkFront.DSysComp.EntitiesComponent.Count);
+                        //Debug.Log("EntitiesComponent.Count: " + playerTriggerTalkFront.DSysComp.EntitiesComponent.Count);
                         playerTriggerTalkFront.DSysComp.EntitiesComponent.ForEach((el) =>
                         {
                             // Everybody else, except the entity that the player is talking to..

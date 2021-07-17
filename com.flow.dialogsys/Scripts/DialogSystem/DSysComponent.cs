@@ -1124,7 +1124,7 @@ namespace DialogSysComp
                     }
                     else
                     {
-                        Debug.LogError("gameObject not found: "+ entity["system_name"].InnerText);
+                        Debug.LogWarning("gameObject not found: "+ entity["system_name"].InnerText);
                     }
 
                     EntitiesComponent.Add(newEntityComp);

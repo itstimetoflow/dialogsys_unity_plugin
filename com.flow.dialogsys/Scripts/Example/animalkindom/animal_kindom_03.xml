@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
-    <app_version>0.0.1</app_version>
+    <app_version>0.0.2</app_version>
     <global_variables style="display: none;">
         <h2>Global Variables</h2>
         <p> code with the variables that has been declared here.</p>
@@ -22,7 +22,7 @@
     <id_model_dataset_counter>50</id_model_dataset_counter>
     <id_dataset_counter>102</id_dataset_counter>
     <aux_id_counter>11</aux_id_counter>
-    <id_code_counter>128</id_code_counter>
+    <id_code_counter>129</id_code_counter>
     <id_node_line_counter>133</id_node_line_counter>
     <nodes_entities style="display: none;">
         <h2>Entities</h2>
@@ -141,7 +141,7 @@
     <nodes_dialogs style="">
         <h2>Dialogs</h2>
         <nodes>
-            <node nid="115" aux_id="" class="has-nodes-connection maximized on-main-root" title="115" style="background-color: rgba(255, 235, 205, 0);">
+            <node nid="115" aux_id="" class="has-nodes-connection minimized on-main-root" title="115" style="background-color: rgba(255, 235, 205, 0);">
                 <id>115</id>
                 <aux_id/>
                 <ok/>
@@ -371,7 +371,7 @@ ok(115, 'true')
                     </nodes>
                 </connections_nodes>
             </node>
-            <node nid="32" aux_id="" class="has-nodes maximized on-main-root" style="background-color: rgba(255, 235, 205, 0); opacity: 1;">
+            <node nid="32" aux_id="" class="has-nodes minimized on-main-root" style="background-color: rgba(255, 235, 205, 0); opacity: 1;">
                 <id>32</id>
                 <aux_id/>
                 <ok/>
@@ -809,7 +809,7 @@ ok(115, 'true')
                     </connections_nodes>
                 </node>
             </node>
-            <node nid="53" aux_id="" class="has-nodes minimized on-main-root" style="background-color: rgba(255, 235, 205, 0); opacity: 1;">
+            <node nid="53" aux_id="" class="has-nodes maximized on-main-root" style="background-color: rgba(255, 235, 205, 0); opacity: 1;">
                 <id>53</id>
                 <aux_id/>
                 <ok/>
@@ -890,7 +890,7 @@ ok(115, 'true')
                     <div>...</div>
                     <nodes/>
                 </connections_nodes>
-                <node nid="54" aux_id="" class="has-nodes-connection minimized">
+                <node nid="54" aux_id="" class="has-nodes-connection maximized">
                     <id>54</id>
                     <aux_id/>
                     <ok/>
@@ -1141,7 +1141,7 @@ ok(115, 'true')
                         </nodes>
                     </connections_nodes>
                 </node>
-                <node nid="62" aux_id="" class="minimized">
+                <node nid="62" aux_id="" class="maximized">
                     <id>62</id>
                     <aux_id/>
                     <ok/>
@@ -1205,7 +1205,9 @@ ok(115, 'true')
                                             <button>Finish Editing</button>
                                         </div>
                                     </edit_region>
-                                    <preview>I love this city.. Its a great place to live..</preview>
+                                    <preview style="display: block;">
+                                        <p>I love this city.. Its a great place to live..</p>
+                                    </preview>
                                     <raw>
                                         <type>text</type>
                                         <cont>I love this city.. Its a great place to live..</cont>
@@ -1229,10 +1231,12 @@ ok(115, 'true')
                                             <button>Finish Editing</button>
                                         </div>
                                     </edit_region>
-                                    <preview>I could sense it! It's brightful and vibrant..</preview>
+                                    <preview style="display: block;">
+                                        <p>I can feel it! It's brightful and vibrant..</p>
+                                    </preview>
                                     <raw>
                                         <type>text</type>
-                                        <cont>I could sense it! It's brightful and vibrant..</cont>
+                                        <cont>I can feel it! It's brightful and vibrant..</cont>
                                     </raw>
                                 </content>
                             </node_line>
@@ -2349,7 +2353,7 @@ ok(115, 'true')
                     </connections_nodes>
                 </node>
             </node>
-            <node nid="44" aux_id="" class="minimized on-main-root" style="background-color: rgba(255, 235, 205, 0);">
+            <node nid="44" aux_id="" class="maximized on-main-root" style="background-color: rgba(255, 235, 205, 0);">
                 <id>44</id>
                 <aux_id/>
                 <ok/>
@@ -4476,7 +4480,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>I love this city.. Its a great place to live..</preview>
+                            <preview style="display: block;">
+                                <p>I love this city.. Its a great place to live..</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>I love this city.. Its a great place to live..</cont>
@@ -4500,10 +4506,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>I could sense it! It's brightful and vibrant..</preview>
+                            <preview style="display: block;">
+                                <p>I can feel it! It's brightful and vibrant..</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>I could sense it! It's brightful and vibrant..</cont>
+                                <cont>I can feel it! It's brightful and vibrant..</cont>
                             </raw>
                         </content>
                     </node_line>

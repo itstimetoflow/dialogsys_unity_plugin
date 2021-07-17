@@ -100,6 +100,7 @@ namespace MainGD
             [Serializable]
             public class Data
             {
+                public bool found_gina;
                 public bool welcome_message;
                 public bool first_talk_nestor;
                 public bool talk_to_greta_01;

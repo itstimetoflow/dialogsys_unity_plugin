@@ -175,11 +175,14 @@ MonoBehaviour:
   playerTriggerTalkFront: {fileID: 0}
   otherEntityToTalk: {fileID: 0}
   DSysComp: {fileID: 0}
+  DSysCompName: DialogSystem
   rb: {fileID: 0}
   useJoystick: 1
   verticalInp: 0
   horizontalInp: 0
   speed: 30
+  camAngleVectorOutput: {x: 0, y: 0, z: 0}
+  directionOutput: {x: 0, y: 0, z: 0}
 --- !u!114 &7657044569978825545
 MonoBehaviour:
   m_ObjectHideFlags: 0
