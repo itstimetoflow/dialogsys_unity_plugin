@@ -22,7 +22,7 @@
     <id_model_dataset_counter>50</id_model_dataset_counter>
     <id_dataset_counter>102</id_dataset_counter>
     <aux_id_counter>11</aux_id_counter>
-    <id_code_counter>129</id_code_counter>
+    <id_code_counter>132</id_code_counter>
     <id_node_line_counter>133</id_node_line_counter>
     <nodes_entities style="display: none;">
         <h2>Entities</h2>
@@ -890,7 +890,7 @@ ok(115, 'true')
                     <div>...</div>
                     <nodes/>
                 </connections_nodes>
-                <node nid="54" aux_id="" class="has-nodes-connection maximized">
+                <node nid="54" aux_id="" class="has-nodes-connection minimized">
                     <id>54</id>
                     <aux_id/>
                     <ok/>
@@ -1141,7 +1141,7 @@ ok(115, 'true')
                         </nodes>
                     </connections_nodes>
                 </node>
-                <node nid="62" aux_id="" class="maximized">
+                <node nid="62" aux_id="" class="minimized">
                     <id>62</id>
                     <aux_id/>
                     <ok/>
@@ -1251,7 +1251,7 @@ ok(115, 'true')
                         <nodes/>
                     </connections_nodes>
                 </node>
-                <node nid="60" aux_id="" class="minimized">
+                <node nid="60" aux_id="" class="maximized">
                     <id>60</id>
                     <aux_id/>
                     <ok/>
@@ -1315,7 +1315,9 @@ ok(115, 'true')
                                             <button>Finish Editing</button>
                                         </div>
                                     </edit_region>
-                                    <preview>You look thoghtfull.. Are you really enjoying your time here?</preview>
+                                    <preview style="display: block;">
+                                        <p>You look thoghtfull.. Are you really enjoying your time here?</p>
+                                    </preview>
                                     <raw>
                                         <type>text</type>
                                         <cont>You look thoghtfull.. Are you really enjoying your time here?</cont>
@@ -1337,7 +1339,9 @@ ok(115, 'true')
                                             <button>Finish Editing</button>
                                         </div>
                                     </edit_region>
-                                    <preview>Kinda.. The city is really beautifull, but I need meet new people..</preview>
+                                    <preview style="display: block;">
+                                        <p>Kinda.. The city is really beautifull, but I need meet new people..</p>
+                                    </preview>
                                     <raw>
                                         <type>text</type>
                                         <cont>Kinda.. The city is really beautifull, but I need meet new people..</cont>
@@ -1359,7 +1363,9 @@ ok(115, 'true')
                                             <button>Finish Editing</button>
                                         </div>
                                     </edit_region>
-                                    <preview>Ow, I see.. I could help... We should go out sometime.. Hey.. there's someone that maybe you could meet..</preview>
+                                    <preview style="display: block;">
+                                        <p>Ow, I see.. I could help... We should go out sometime.. Hey.. there's someone that maybe you could meet..</p>
+                                    </preview>
                                     <raw>
                                         <type>text</type>
                                         <cont>Ow, I see.. I could help... We should go out sometime.. Hey.. there's someone that maybe you could meet..</cont>
@@ -1381,7 +1387,9 @@ ok(115, 'true')
                                             <button>Finish Editing</button>
                                         </div>
                                     </edit_region>
-                                    <preview>Her name is Greta. She is really fun and has a colorfull personality. Beside, she is really beautiful.. and best of all: she is single!</preview>
+                                    <preview style="display: block;">
+                                        <p>Her name is Greta. She is really fun and has a colorfull personality. Beside, she is really beautiful.. and best of all: she is single!</p>
+                                    </preview>
                                     <raw>
                                         <type>text</type>
                                         <cont>Her name is Greta. She is really fun and has a colorfull personality. Beside, she is really beautiful.. and best of all: she is single!</cont>
@@ -1403,7 +1411,9 @@ ok(115, 'true')
                                             <button>Finish Editing</button>
                                         </div>
                                     </edit_region>
-                                    <preview>??</preview>
+                                    <preview style="display: block;">
+                                        <p>??</p>
+                                    </preview>
                                     <raw>
                                         <type>text</type>
                                         <cont>??</cont>
@@ -1425,34 +1435,12 @@ ok(115, 'true')
                                             <button>Finish Editing</button>
                                         </div>
                                     </edit_region>
-                                    <preview>Don't get me wrong.. It's been a while she has been lonely. She has met a bunch of suckers lately.. and you seem like a good guy</preview>
+                                    <preview style="display: block;">
+                                        <p>Don't get me wrong.. It's been a while she has been lonely. She has just met suckers lately.. and you seem like a good guy. (I'm really good at reading people)</p>
+                                    </preview>
                                     <raw>
                                         <type>text</type>
-                                        <cont>Don't get me wrong.. It's been a while she has been lonely. She has met a bunch of suckers lately.. and you seem like a good guy</cont>
-                                    </raw>
-                                </content>
-                            </node_line>
-                            <node_line player="" nlid="49">
-                                <who>22</who>
-                                <div>Nestor</div>
-                                <content class="" nid="">
-                                    <tags>
-                                        <cont>
-                                            <tag>happy</tag>
-                                        </cont>
-                                    </tags>
-                                    <edit_region style="display: none;">
-                                        <editor>
-                                            <container/>
-                                        </editor>
-                                        <div class="toolbar-edit-region">
-                                            <button>Finish Editing</button>
-                                        </div>
-                                    </edit_region>
-                                    <preview>I'm good at reading people..</preview>
-                                    <raw>
-                                        <type>text</type>
-                                        <cont>I'm good at reading people..</cont>
+                                        <cont>Don't get me wrong.. It's been a while she has been lonely. She has just met suckers lately.. and you seem like a good guy. (I'm really good at reading people)</cont>
                                     </raw>
                                 </content>
                             </node_line>
@@ -1471,10 +1459,12 @@ ok(115, 'true')
                                             <button>Finish Editing</button>
                                         </div>
                                     </edit_region>
-                                    <preview>You don't know me, but I thank your judgement about my personality. I think it is a little bit odd, but it does no harm to try meet her.</preview>
+                                    <preview style="display: block;">
+                                        <p>Well, you don't know me so far, but I thank for the good judgement. I think it is a little bit odd, but maybe doesn't harm to try meet her.</p>
+                                    </preview>
                                     <raw>
                                         <type>text</type>
-                                        <cont>You don't know me, but I thank your judgement about my personality. I think it is a little bit odd, but it does no harm to try meet her.</cont>
+                                        <cont>Well, you don't know me so far, but I thank for the good judgement. I think it is a little bit odd, but maybe doesn't harm to try meet her.</cont>
                                     </raw>
                                 </content>
                             </node_line>
@@ -1493,7 +1483,9 @@ ok(115, 'true')
                                             <button>Finish Editing</button>
                                         </div>
                                     </edit_region>
-                                    <preview>I've been single for a while, so maybe I'll give a shot. What does she look like?</preview>
+                                    <preview style="display: block;">
+                                        <p>I've been single for a while, so maybe I'll give a shot. What does she look like?</p>
+                                    </preview>
                                     <raw>
                                         <type>text</type>
                                         <cont>I've been single for a while, so maybe I'll give a shot. What does she look like?</cont>
@@ -1515,7 +1507,9 @@ ok(115, 'true')
                                             <button>Finish Editing</button>
                                         </div>
                                     </edit_region>
-                                    <preview>Oh, she is really pretty! She is a horse with a blue coat and a long mane..</preview>
+                                    <preview style="display: block;">
+                                        <p>Oh, she is really pretty! She is a horse with a blue coat and a long mane..</p>
+                                    </preview>
                                     <raw>
                                         <type>text</type>
                                         <cont>Oh, she is really pretty! She is a horse with a blue coat and a long mane..</cont>
@@ -1691,7 +1685,7 @@ ok(115, 'true')
                                     <nodes style="display: none;"/>
                                 </connections_nodes>
                             </node>
-                            <node nid="70" aux_id="" class="branch minimized" title="70" style="background-color: rgba(255, 235, 205, 0); opacity: 1;">
+                            <node nid="70" aux_id="" class="branch maximized" title="70" style="background-color: rgba(255, 235, 205, 0); opacity: 1;">
                                 <id>70</id>
                                 <aux_id/>
                                 <ok/>
@@ -1770,7 +1764,7 @@ ok(115, 'true')
                                     <nodes style=""/>
                                 </connections_nodes>
                             </node>
-                            <node nid="63" aux_id="" class="branch has-nodes minimized" title="63" style="background-color: rgba(255, 235, 205, 0);">
+                            <node nid="63" aux_id="" class="branch has-nodes maximized" title="63" style="background-color: rgba(255, 235, 205, 0);">
                                 <id>63</id>
                                 <aux_id/>
                                 <ok/>
@@ -1834,10 +1828,12 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>Hi man! how's it going?</preview>
+                                                <preview style="display: block;">
+                                                    <p>Hey man! Have you met Greta?</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
-                                                    <cont>Hi man! how's it going?</cont>
+                                                    <cont>Hey man! Have you met Greta?</cont>
                                                 </raw>
                                             </content>
                                         </node_line>
@@ -1856,10 +1852,12 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>Not so good. I do talk with that girl Greta, as you ask me. But it didin't work well...</preview>
+                                                <preview style="display: block;">
+                                                    <p>I did talk to her, as you asked me, but it didin't work well...</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
-                                                    <cont>Not so good. I do talk with that girl Greta, as you ask me. But it didin't work well...</cont>
+                                                    <cont>I did talk to her, as you asked me, but it didin't work well...</cont>
                                                 </raw>
                                             </content>
                                         </node_line>
@@ -1878,7 +1876,9 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>She didn't like you?</preview>
+                                                <preview style="display: block;">
+                                                    <p>She didn't like you?</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
                                                     <cont>She didn't like you?</cont>
@@ -1900,10 +1900,12 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>She got defensive when I accidentally insinuate that someone told me that she could meet someone</preview>
+                                                <preview style="display: block;">
+                                                    <p>She has got defensive when I accidentally insinuate that someone told me that she should meet someone</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
-                                                    <cont>She got defensive when I accidentally insinuate that someone told me that she could meet someone</cont>
+                                                    <cont>She has got defensive when I accidentally insinuate that someone told me that she should meet someone</cont>
                                                 </raw>
                                             </content>
                                         </node_line>
@@ -1922,7 +1924,9 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>Oh god..</preview>
+                                                <preview style="display: block;">
+                                                    <p>Oh god..</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
                                                     <cont>Oh god..</cont>
@@ -1944,10 +1948,12 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>Yes, she had assumed that it was you and dismiss me right away..</preview>
+                                                <preview style="display: block;">
+                                                    <p>Yes... she had assumed that it was you and dismiss me right away..</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
-                                                    <cont>Yes, she had assumed that it was you and dismiss me right away..</cont>
+                                                    <cont>Yes... she had assumed that it was you and dismiss me right away..</cont>
                                                 </raw>
                                             </content>
                                         </node_line>
@@ -1966,7 +1972,9 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>She told me that other people have approach her after talking to you. Is that true?</preview>
+                                                <preview style="display: block;">
+                                                    <p>She told me that other people have approach her after talking to you. Is that true?</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
                                                     <cont>She told me that other people have approach her after talking to you. Is that true?</cont>
@@ -1988,7 +1996,9 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>Oh man, I'm just trying to help her!</preview>
+                                                <preview style="display: block;">
+                                                    <p>Oh man, I'm just trying to help her!</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
                                                     <cont>Oh man, I'm just trying to help her!</cont>
@@ -2010,10 +2020,12 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>It was just embarrassing...</preview>
+                                                <preview style="display: block;">
+                                                    <p>It was so embarrassing...</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
-                                                    <cont>It was just embarrassing...</cont>
+                                                    <cont>It was so embarrassing...</cont>
                                                 </raw>
                                             </content>
                                         </node_line>
@@ -2032,10 +2044,16 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>Don't bother about it man.. So tell me.. did you like her?</preview>
+                                                <preview style="display: block;">
+                                                    <p>So tell me.. did you like her?</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
-                                                    <cont>Don't bother about it man.. So tell me.. did you like her?</cont>
+                                                    <cont>Don't bother about it man.. </cont>
+                                                </raw>
+                                                <raw>
+                                                    <type>text</type>
+                                                    <cont>So tell me.. did you like her?</cont>
                                                 </raw>
                                             </content>
                                         </node_line>
@@ -2054,10 +2072,12 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>She is really pretty, despite being a little grumpy.</preview>
+                                                <preview style="display: block;">
+                                                    <p>Well, she is really pretty, despite being a little grumpy.</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
-                                                    <cont>She is really pretty, despite being a little grumpy.</cont>
+                                                    <cont>Well, she is really pretty, despite being a little grumpy.</cont>
                                                 </raw>
                                             </content>
                                         </node_line>
@@ -2076,10 +2096,12 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>Dont bother! She is a great girl. Go for it! </preview>
+                                                <preview style="display: block;">
+                                                    <p>She is a great girl! You should try again...</p>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
-                                                    <cont>Dont bother! She is a great girl. Go for it! </cont>
+                                                    <cont>She is a great girl! You should try again...</cont>
                                                 </raw>
                                             </content>
                                         </node_line>
@@ -2098,10 +2120,12 @@ ok(115, 'true')
                                                         <button>Finish Editing</button>
                                                     </div>
                                                 </edit_region>
-                                                <preview>I'll see what I can do... </preview>
+                                                <preview style="display: block;">
+                                                    <span>&lt;Code&gt;</span>
+                                                </preview>
                                                 <raw>
                                                     <type>text</type>
-                                                    <cont>I'll see what I can do...</cont>
+                                                    <cont>I don't think so...</cont>
                                                 </raw>
                                                 <raw>
                                                     <type>code</type>
@@ -2184,10 +2208,12 @@ ok(115, 'true')
                                                             <button>Finish Editing</button>
                                                         </div>
                                                     </edit_region>
-                                                    <preview>There's something you can do to impress her. There's a japanese flower that she is looking for a long time.</preview>
+                                                    <preview style="display: block;">
+                                                        <p>There's something that you can do to impress her. There's a japanese flower that she is looking for a long time.</p>
+                                                    </preview>
                                                     <raw>
                                                         <type>text</type>
-                                                        <cont>There's something you can do to impress her. There's a japanese flower that she is looking for a long time.</cont>
+                                                        <cont>There's something that you can do to impress her. There's a japanese flower that she is looking for a long time.</cont>
                                                     </raw>
                                                 </content>
                                             </node_line>
@@ -2206,7 +2232,9 @@ ok(115, 'true')
                                                             <button>Finish Editing</button>
                                                         </div>
                                                     </edit_region>
-                                                    <preview>I think the name is something like 'Radiada'. It's a beautiful flower that looks like a magnificent dove.</preview>
+                                                    <preview style="display: block;">
+                                                        <p>I think the name is something like 'Radiada'. It's a beautiful flower that looks like a magnificent dove.</p>
+                                                    </preview>
                                                     <raw>
                                                         <type>text</type>
                                                         <cont>I think the name is something like 'Radiada'. It's a beautiful flower that looks like a magnificent dove.</cont>
@@ -2228,10 +2256,12 @@ ok(115, 'true')
                                                             <button>Finish Editing</button>
                                                         </div>
                                                     </edit_region>
-                                                    <preview> a merchant that has just arrived from his usual trips, must have bring one that I had ordered.</preview>
+                                                    <preview style="display: block;">
+                                                        <span>a merchant that has just arrived from his usual trips,must have brought one that I ordered.</span>
+                                                    </preview>
                                                     <raw>
                                                         <type>text</type>
-                                                        <cont>Mr. </cont>
+                                                        <cont>Mr.</cont>
                                                     </raw>
                                                     <raw>
                                                         <type>code</type>
@@ -2240,7 +2270,7 @@ ok(115, 'true')
                                                     </raw>
                                                     <raw>
                                                         <type>text</type>
-                                                        <cont>a merchant that has just arrived from his usual trips, must have bring one that I had ordered.</cont>
+                                                        <cont>a merchant that has just arrived from his usual trips,must have brought one that I ordered.</cont>
                                                     </raw>
                                                 </content>
                                             </node_line>
@@ -2259,10 +2289,12 @@ ok(115, 'true')
                                                             <button>Finish Editing</button>
                                                         </div>
                                                     </edit_region>
-                                                    <preview>But do you gonna give it to me so I could present Greta with it?</preview>
+                                                    <preview style="display: block;">
+                                                        <p>But do you gonna give it to me so I could present her with it?</p>
+                                                    </preview>
                                                     <raw>
                                                         <type>text</type>
-                                                        <cont>But do you gonna give it to me so I could present Greta with it?</cont>
+                                                        <cont>But do you gonna give it to me so I could present her with it?</cont>
                                                     </raw>
                                                 </content>
                                             </node_line>
@@ -2281,10 +2313,12 @@ ok(115, 'true')
                                                             <button>Finish Editing</button>
                                                         </div>
                                                     </edit_region>
-                                                    <preview>Exactly! You just have to pay the order invoice. With it, you gonna strike her heart big time!</preview>
+                                                    <preview style="display: block;">
+                                                        <p>Exactly! You just have to pay the order invoice. With that thing, you gonna strike her heart big time!</p>
+                                                    </preview>
                                                     <raw>
                                                         <type>text</type>
-                                                        <cont>Exactly! You just have to pay the order invoice. With it, you gonna strike her heart big time!</cont>
+                                                        <cont>Exactly! You just have to pay the order invoice. With that thing, you gonna strike her heart big time!</cont>
                                                     </raw>
                                                 </content>
                                             </node_line>
@@ -2303,7 +2337,9 @@ ok(115, 'true')
                                                             <button>Finish Editing</button>
                                                         </div>
                                                     </edit_region>
-                                                    <preview>Ok, I'm gonna find this guy and get it. Wish me luck!</preview>
+                                                    <preview style="display: block;">
+                                                        <p>Ok, I'm gonna find this guy and get it. Wish me luck!</p>
+                                                    </preview>
                                                     <raw>
                                                         <type>text</type>
                                                         <cont>Ok, I'm gonna find this guy and get it. Wish me luck!</cont>
@@ -2325,7 +2361,9 @@ ok(115, 'true')
                                                             <button>Finish Editing</button>
                                                         </div>
                                                     </edit_region>
-                                                    <preview>Good luck, my man! </preview>
+                                                    <preview style="display: block;">
+                                                        <span>&lt;Code&gt;</span>
+                                                    </preview>
                                                     <raw>
                                                         <type>text</type>
                                                         <cont>Good luck, my man!</cont>
@@ -2420,7 +2458,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Hi! Im Greta. Im a florist on this town. </preview>
+                                <preview style="display: block;">
+                                    <p>Hi! Im Greta. Im a florist on this town. </p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>Hi! Im Greta. Im a florist on this town. </cont>
@@ -2442,7 +2482,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Hi! (Oh, she's actually very preaty..). My name is Nestor. Im new in town. </preview>
+                                <preview style="display: block;">
+                                    <p>Hi! (Oh, she's actually very preaty..). My name is Nestor. Im new in town. </p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>Hi! (Oh, she's actually very preaty..). My name is Nestor. Im new in town. </cont>
@@ -2464,7 +2506,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Oh, I see.. It's preaty colorful ah? I love living here. Look at those flowers! Lovely ah? Do you wanna take a bouquet?</preview>
+                                <preview style="display: block;">
+                                    <p>Oh, I see.. It's preaty colorful ah? I love living here. Look at those flowers! Lovely ah? Do you wanna take a bouquet?</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>Oh, I see.. It's preaty colorful ah? I love living here. Look at those flowers! Lovely ah? Do you wanna take a bouquet?</cont>
@@ -2486,7 +2530,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Oh no... I don't have anybody to give them.. </preview>
+                                <preview style="display: block;">
+                                    <p>Oh no... I don't have anybody to give them.. </p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>Oh no... I don't have anybody to give them.. </cont>
@@ -2508,7 +2554,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Well, you could put those flowers on a dinner table, a empty vase.. you know.. to flowrish your home.</preview>
+                                <preview style="display: block;">
+                                    <p>Well, you could put those flowers on a dinner table, a empty vase.. you know.. to flowrish your home.</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>Well, you could put those flowers on a dinner table, a empty vase.. you know.. to flowrish your home.</cont>
@@ -2530,7 +2578,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>I prefer to give them to somebody. If I have luck, I could give them to someone as beautiful as you..</preview>
+                                <preview style="display: block;">
+                                    <p>I prefer to give them to somebody. If I have luck, I could give them to someone as beautiful as you..</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>I prefer to give them to somebody. If I have luck, I could give them to someone as beautiful as you..</cont>
@@ -2552,10 +2602,12 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>What!? I'm very flattered but, are you hitting on me? We just met.</preview>
+                                <preview style="display: block;">
+                                    <p>What!? I'm very flattered but, are you flirting with me? </p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
-                                    <cont>What!? I'm very flattered but, are you hitting on me? We just met.</cont>
+                                    <cont>What!? I'm very flattered but, are you flirting with me? </cont>
                                 </raw>
                             </content>
                         </node_line>
@@ -2574,10 +2626,12 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Well.. I'm just trying to make a little move here, but I'm not intended to cross any line.. You look like need some flowers to flourish you life.</preview>
+                                <preview style="display: block;">
+                                    <p>Well.. I'm just trying to make a little move here, but I'm not intended to cross any line.. You look like someone that need a little more flowers in your life.</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
-                                    <cont>Well.. I'm just trying to make a little move here, but I'm not intended to cross any line.. You look like need some flowers to flourish you life.</cont>
+                                    <cont>Well.. I'm just trying to make a little move here, but I'm not intended to cross any line.. You look like someone that need a little more flowers in your life.</cont>
                                 </raw>
                             </content>
                         </node_line>
@@ -2598,7 +2652,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>You're funny. Have you seen the amount of flowers that sorrounds me by now? Do I look like somebody that needs more of it?</preview>
+                                <preview style="display: block;">
+                                    <p>You're funny. Have you seen the amount of flowers that sorrounds me by now? Do I look like somebody that needs more of it?</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>You're funny. Have you seen the amount of flowers that sorrounds me by now? Do I look like somebody that needs more of it?</cont>
@@ -2620,7 +2676,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Well.. a bird tolds me that it could be a good idea. Maybe not flowers.. maybe something else.</preview>
+                                <preview style="display: block;">
+                                    <p>Well.. a bird tolds me that it could be a good idea. Maybe not flowers.. maybe something else.</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>Well.. a bird tolds me that it could be a good idea. Maybe not flowers.. maybe something else.</cont>
@@ -2642,7 +2700,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>And who could possible be this chatty bird?</preview>
+                                <preview style="display: block;">
+                                    <p>And who could possible be this chatty bird?</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>And who could possible be this chatty bird?</cont>
@@ -2664,10 +2724,12 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Well, somebody at this town.. I nice new fella that I've met a while ago.</preview>
+                                <preview style="display: block;">
+                                    <p>Huhh.. I nice new fella that I've met a while ago..</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
-                                    <cont>Well, somebody at this town.. I nice new fella that I've met a while ago.</cont>
+                                    <cont>Huhh.. I nice new fella that I've met a while ago..</cont>
                                 </raw>
                             </content>
                         </node_line>
@@ -2688,7 +2750,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>!!</preview>
+                                <preview style="display: block;">
+                                    <p>!!</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>!!</cont>
@@ -2712,10 +2776,12 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Oh my god, I cannot believe... Does Nestor talk to you? She told you that I am looking for someone? I'm gonna kill him!</preview>
+                                <preview style="display: block;">
+                                    <p>Oh my god, I cannot believe... Does Nestor talk to you? She told you that I am looking for someone? Oh gosh.. I'm gonna kill him!</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
-                                    <cont>Oh my god, I cannot believe... Does Nestor talk to you? She told you that I am looking for someone? I'm gonna kill him!</cont>
+                                    <cont>Oh my god, I cannot believe... Does Nestor talk to you? She told you that I am looking for someone? Oh gosh.. I'm gonna kill him!</cont>
                                 </raw>
                             </content>
                         </node_line>
@@ -2734,7 +2800,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Oh! Don't be upset! He just trying to help! I'm so sorry..</preview>
+                                <preview style="display: block;">
+                                    <p>Oh! Don't be upset! He just trying to help! I'm so sorry..</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>Oh! Don't be upset! He just trying to help! I'm so sorry..</cont>
@@ -2756,7 +2824,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Am I looking desperate these much for help?</preview>
+                                <preview style="display: block;">
+                                    <p>Am I looking desperate these much for help?</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>Am I looking desperate these much for help?</cont>
@@ -2778,10 +2848,12 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Look man, this is not the first time that he do that thing. I'll go talk about this with him later.. again! What I really need right now is go back to work. Bye.</preview>
+                                <preview style="display: block;">
+                                    <p>Look man, this is not the first time that he do this thing. I'll go talk about this with him later.. again! What I really need right now is go back to work. Bye.</p>
+                                </preview>
                                 <raw>
                                     <type>text</type>
-                                    <cont>Look man, this is not the first time that he do that thing. I'll go talk about this with him later.. again! What I really need right now is go back to work. Bye.</cont>
+                                    <cont>Look man, this is not the first time that he do this thing. I'll go talk about this with him later.. again! What I really need right now is go back to work. Bye.</cont>
                                 </raw>
                             </content>
                         </node_line>
@@ -2802,7 +2874,9 @@ ok(115, 'true')
                                         <button>Finish Editing</button>
                                     </div>
                                 </edit_region>
-                                <preview>Ohh... O..Ok.. nice to meet you... </preview>
+                                <preview style="display: block;">
+                                    <span>&lt;Code&gt;</span>
+                                </preview>
                                 <raw>
                                     <type>text</type>
                                     <cont>Ohh... O..Ok.. nice to meet you...</cont>
@@ -2825,7 +2899,7 @@ ok(115, 'true')
                     <nodes/>
                 </connections_nodes>
             </node>
-            <node nid="106" aux_id="" class="has-nodes-connection minimized on-main-root" title="106" style="background-color: rgba(255, 235, 205, 0); opacity: 1;">
+            <node nid="106" aux_id="" class="has-nodes-connection on-main-root maximized" title="106" style="background-color: rgba(255, 235, 205, 0); opacity: 1;">
                 <id>106</id>
                 <aux_id/>
                 <ok/>
@@ -4576,7 +4650,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>You look thoghtfull.. Are you really enjoying your time here?</preview>
+                            <preview style="display: block;">
+                                <p>You look thoghtfull.. Are you really enjoying your time here?</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>You look thoghtfull.. Are you really enjoying your time here?</cont>
@@ -4598,7 +4674,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Kinda.. The city is really beautifull, but I need meet new people..</preview>
+                            <preview style="display: block;">
+                                <p>Kinda.. The city is really beautifull, but I need meet new people..</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Kinda.. The city is really beautifull, but I need meet new people..</cont>
@@ -4620,7 +4698,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Ow, I see.. I could help... We should go out sometime.. Hey.. there's someone that maybe you could meet..</preview>
+                            <preview style="display: block;">
+                                <p>Ow, I see.. I could help... We should go out sometime.. Hey.. there's someone that maybe you could meet..</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Ow, I see.. I could help... We should go out sometime.. Hey.. there's someone that maybe you could meet..</cont>
@@ -4642,7 +4722,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Her name is Greta. She is really fun and has a colorfull personality. Beside, she is really beautiful.. and best of all: she is single!</preview>
+                            <preview style="display: block;">
+                                <p>Her name is Greta. She is really fun and has a colorfull personality. Beside, she is really beautiful.. and best of all: she is single!</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Her name is Greta. She is really fun and has a colorfull personality. Beside, she is really beautiful.. and best of all: she is single!</cont>
@@ -4664,7 +4746,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>??</preview>
+                            <preview style="display: block;">
+                                <p>??</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>??</cont>
@@ -4686,34 +4770,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Don't get me wrong.. It's been a while she has been lonely. She has met a bunch of suckers lately.. and you seem like a good guy</preview>
+                            <preview style="display: block;">
+                                <p>Don't get me wrong.. It's been a while she has been lonely. She has just met suckers lately.. and you seem like a good guy. (I'm really good at reading people)</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Don't get me wrong.. It's been a while she has been lonely. She has met a bunch of suckers lately.. and you seem like a good guy</cont>
-                            </raw>
-                        </content>
-                    </node_line>
-                    <node_line player="" nlid="49">
-                        <who>22</who>
-                        <div>Nestor</div>
-                        <content class="" nid="">
-                            <tags>
-                                <cont>
-                                    <tag>happy</tag>
-                                </cont>
-                            </tags>
-                            <edit_region style="display: none;">
-                                <editor>
-                                    <container/>
-                                </editor>
-                                <div class="toolbar-edit-region">
-                                    <button>Finish Editing</button>
-                                </div>
-                            </edit_region>
-                            <preview>I'm good at reading people..</preview>
-                            <raw>
-                                <type>text</type>
-                                <cont>I'm good at reading people..</cont>
+                                <cont>Don't get me wrong.. It's been a while she has been lonely. She has just met suckers lately.. and you seem like a good guy. (I'm really good at reading people)</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -4732,10 +4794,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>You don't know me, but I thank your judgement about my personality. I think it is a little bit odd, but it does no harm to try meet her.</preview>
+                            <preview style="display: block;">
+                                <p>Well, you don't know me so far, but I thank for the good judgement. I think it is a little bit odd, but maybe doesn't harm to try meet her.</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>You don't know me, but I thank your judgement about my personality. I think it is a little bit odd, but it does no harm to try meet her.</cont>
+                                <cont>Well, you don't know me so far, but I thank for the good judgement. I think it is a little bit odd, but maybe doesn't harm to try meet her.</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -4754,7 +4818,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>I've been single for a while, so maybe I'll give a shot. What does she look like?</preview>
+                            <preview style="display: block;">
+                                <p>I've been single for a while, so maybe I'll give a shot. What does she look like?</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>I've been single for a while, so maybe I'll give a shot. What does she look like?</cont>
@@ -4776,7 +4842,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Oh, she is really pretty! She is a horse with a blue coat and a long mane..</preview>
+                            <preview style="display: block;">
+                                <p>Oh, she is really pretty! She is a horse with a blue coat and a long mane..</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Oh, she is really pretty! She is a horse with a blue coat and a long mane..</cont>
@@ -5041,10 +5109,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Hi man! how's it going?</preview>
+                            <preview style="display: block;">
+                                <p>Hey man! Have you met Greta?</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Hi man! how's it going?</cont>
+                                <cont>Hey man! Have you met Greta?</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5063,10 +5133,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Not so good. I do talk with that girl Greta, as you ask me. But it didin't work well...</preview>
+                            <preview style="display: block;">
+                                <p>I did talk to her, as you asked me, but it didin't work well...</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Not so good. I do talk with that girl Greta, as you ask me. But it didin't work well...</cont>
+                                <cont>I did talk to her, as you asked me, but it didin't work well...</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5085,7 +5157,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>She didn't like you?</preview>
+                            <preview style="display: block;">
+                                <p>She didn't like you?</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>She didn't like you?</cont>
@@ -5107,10 +5181,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>She got defensive when I accidentally insinuate that someone told me that she could meet someone</preview>
+                            <preview style="display: block;">
+                                <p>She has got defensive when I accidentally insinuate that someone told me that she should meet someone</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>She got defensive when I accidentally insinuate that someone told me that she could meet someone</cont>
+                                <cont>She has got defensive when I accidentally insinuate that someone told me that she should meet someone</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5129,7 +5205,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Oh god..</preview>
+                            <preview style="display: block;">
+                                <p>Oh god..</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Oh god..</cont>
@@ -5151,10 +5229,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Yes, she had assumed that it was you and dismiss me right away..</preview>
+                            <preview style="display: block;">
+                                <p>Yes... she had assumed that it was you and dismiss me right away..</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Yes, she had assumed that it was you and dismiss me right away..</cont>
+                                <cont>Yes... she had assumed that it was you and dismiss me right away..</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5173,7 +5253,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>She told me that other people have approach her after talking to you. Is that true?</preview>
+                            <preview style="display: block;">
+                                <p>She told me that other people have approach her after talking to you. Is that true?</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>She told me that other people have approach her after talking to you. Is that true?</cont>
@@ -5195,7 +5277,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Oh man, I'm just trying to help her!</preview>
+                            <preview style="display: block;">
+                                <p>Oh man, I'm just trying to help her!</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Oh man, I'm just trying to help her!</cont>
@@ -5217,10 +5301,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>It was just embarrassing...</preview>
+                            <preview style="display: block;">
+                                <p>It was so embarrassing...</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>It was just embarrassing...</cont>
+                                <cont>It was so embarrassing...</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5239,10 +5325,16 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Don't bother about it man.. So tell me.. did you like her?</preview>
+                            <preview style="display: block;">
+                                <p>So tell me.. did you like her?</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Don't bother about it man.. So tell me.. did you like her?</cont>
+                                <cont>Don't bother about it man.. </cont>
+                            </raw>
+                            <raw>
+                                <type>text</type>
+                                <cont>So tell me.. did you like her?</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5261,10 +5353,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>She is really pretty, despite being a little grumpy.</preview>
+                            <preview style="display: block;">
+                                <p>Well, she is really pretty, despite being a little grumpy.</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>She is really pretty, despite being a little grumpy.</cont>
+                                <cont>Well, she is really pretty, despite being a little grumpy.</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5283,10 +5377,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Dont bother! She is a great girl. Go for it! </preview>
+                            <preview style="display: block;">
+                                <p>She is a great girl! You should try again...</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Dont bother! She is a great girl. Go for it! </cont>
+                                <cont>She is a great girl! You should try again...</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5305,10 +5401,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>I'll see what I can do... </preview>
+                            <preview style="display: block;">
+                                <span>&lt;Code&gt;</span>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>I'll see what I can do...</cont>
+                                <cont>I don't think so...</cont>
                             </raw>
                             <raw>
                                 <type>code</type>
@@ -5379,10 +5477,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>There's something you can do to impress her. There's a japanese flower that she is looking for a long time.</preview>
+                            <preview style="display: block;">
+                                <p>There's something that you can do to impress her. There's a japanese flower that she is looking for a long time.</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>There's something you can do to impress her. There's a japanese flower that she is looking for a long time.</cont>
+                                <cont>There's something that you can do to impress her. There's a japanese flower that she is looking for a long time.</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5401,7 +5501,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>I think the name is something like 'Radiada'. It's a beautiful flower that looks like a magnificent dove.</preview>
+                            <preview style="display: block;">
+                                <p>I think the name is something like 'Radiada'. It's a beautiful flower that looks like a magnificent dove.</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>I think the name is something like 'Radiada'. It's a beautiful flower that looks like a magnificent dove.</cont>
@@ -5423,10 +5525,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview> a merchant that has just arrived from his usual trips, must have bring one that I had ordered.</preview>
+                            <preview style="display: block;">
+                                <span>a merchant that has just arrived from his usual trips,must have brought one that I ordered.</span>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Mr. </cont>
+                                <cont>Mr.</cont>
                             </raw>
                             <raw>
                                 <type>code</type>
@@ -5435,7 +5539,7 @@ ok(115, 'true')
                             </raw>
                             <raw>
                                 <type>text</type>
-                                <cont>a merchant that has just arrived from his usual trips, must have bring one that I had ordered.</cont>
+                                <cont>a merchant that has just arrived from his usual trips,must have brought one that I ordered.</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5454,10 +5558,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>But do you gonna give it to me so I could present Greta with it?</preview>
+                            <preview style="display: block;">
+                                <p>But do you gonna give it to me so I could present her with it?</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>But do you gonna give it to me so I could present Greta with it?</cont>
+                                <cont>But do you gonna give it to me so I could present her with it?</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5476,10 +5582,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Exactly! You just have to pay the order invoice. With it, you gonna strike her heart big time!</preview>
+                            <preview style="display: block;">
+                                <p>Exactly! You just have to pay the order invoice. With that thing, you gonna strike her heart big time!</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Exactly! You just have to pay the order invoice. With it, you gonna strike her heart big time!</cont>
+                                <cont>Exactly! You just have to pay the order invoice. With that thing, you gonna strike her heart big time!</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5498,7 +5606,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Ok, I'm gonna find this guy and get it. Wish me luck!</preview>
+                            <preview style="display: block;">
+                                <p>Ok, I'm gonna find this guy and get it. Wish me luck!</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Ok, I'm gonna find this guy and get it. Wish me luck!</cont>
@@ -5520,7 +5630,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Good luck, my man! </preview>
+                            <preview style="display: block;">
+                                <span>&lt;Code&gt;</span>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Good luck, my man!</cont>
@@ -5595,7 +5707,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Hi! Im Greta. Im a florist on this town. </preview>
+                            <preview style="display: block;">
+                                <p>Hi! Im Greta. Im a florist on this town. </p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Hi! Im Greta. Im a florist on this town. </cont>
@@ -5617,7 +5731,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Hi! (Oh, she's actually very preaty..). My name is Nestor. Im new in town. </preview>
+                            <preview style="display: block;">
+                                <p>Hi! (Oh, she's actually very preaty..). My name is Nestor. Im new in town. </p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Hi! (Oh, she's actually very preaty..). My name is Nestor. Im new in town. </cont>
@@ -5639,7 +5755,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Oh, I see.. It's preaty colorful ah? I love living here. Look at those flowers! Lovely ah? Do you wanna take a bouquet?</preview>
+                            <preview style="display: block;">
+                                <p>Oh, I see.. It's preaty colorful ah? I love living here. Look at those flowers! Lovely ah? Do you wanna take a bouquet?</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Oh, I see.. It's preaty colorful ah? I love living here. Look at those flowers! Lovely ah? Do you wanna take a bouquet?</cont>
@@ -5661,7 +5779,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Oh no... I don't have anybody to give them.. </preview>
+                            <preview style="display: block;">
+                                <p>Oh no... I don't have anybody to give them.. </p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Oh no... I don't have anybody to give them.. </cont>
@@ -5683,7 +5803,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Well, you could put those flowers on a dinner table, a empty vase.. you know.. to flowrish your home.</preview>
+                            <preview style="display: block;">
+                                <p>Well, you could put those flowers on a dinner table, a empty vase.. you know.. to flowrish your home.</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Well, you could put those flowers on a dinner table, a empty vase.. you know.. to flowrish your home.</cont>
@@ -5705,7 +5827,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>I prefer to give them to somebody. If I have luck, I could give them to someone as beautiful as you..</preview>
+                            <preview style="display: block;">
+                                <p>I prefer to give them to somebody. If I have luck, I could give them to someone as beautiful as you..</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>I prefer to give them to somebody. If I have luck, I could give them to someone as beautiful as you..</cont>
@@ -5727,10 +5851,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>What!? I'm very flattered but, are you hitting on me? We just met.</preview>
+                            <preview style="display: block;">
+                                <p>What!? I'm very flattered but, are you flirting with me? </p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>What!? I'm very flattered but, are you hitting on me? We just met.</cont>
+                                <cont>What!? I'm very flattered but, are you flirting with me? </cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5749,10 +5875,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Well.. I'm just trying to make a little move here, but I'm not intended to cross any line.. You look like need some flowers to flourish you life.</preview>
+                            <preview style="display: block;">
+                                <p>Well.. I'm just trying to make a little move here, but I'm not intended to cross any line.. You look like someone that need a little more flowers in your life.</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Well.. I'm just trying to make a little move here, but I'm not intended to cross any line.. You look like need some flowers to flourish you life.</cont>
+                                <cont>Well.. I'm just trying to make a little move here, but I'm not intended to cross any line.. You look like someone that need a little more flowers in your life.</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5773,7 +5901,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>You're funny. Have you seen the amount of flowers that sorrounds me by now? Do I look like somebody that needs more of it?</preview>
+                            <preview style="display: block;">
+                                <p>You're funny. Have you seen the amount of flowers that sorrounds me by now? Do I look like somebody that needs more of it?</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>You're funny. Have you seen the amount of flowers that sorrounds me by now? Do I look like somebody that needs more of it?</cont>
@@ -5795,7 +5925,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Well.. a bird tolds me that it could be a good idea. Maybe not flowers.. maybe something else.</preview>
+                            <preview style="display: block;">
+                                <p>Well.. a bird tolds me that it could be a good idea. Maybe not flowers.. maybe something else.</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Well.. a bird tolds me that it could be a good idea. Maybe not flowers.. maybe something else.</cont>
@@ -5817,7 +5949,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>And who could possible be this chatty bird?</preview>
+                            <preview style="display: block;">
+                                <p>And who could possible be this chatty bird?</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>And who could possible be this chatty bird?</cont>
@@ -5839,10 +5973,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Well, somebody at this town.. I nice new fella that I've met a while ago.</preview>
+                            <preview style="display: block;">
+                                <p>Huhh.. I nice new fella that I've met a while ago..</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Well, somebody at this town.. I nice new fella that I've met a while ago.</cont>
+                                <cont>Huhh.. I nice new fella that I've met a while ago..</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5863,7 +5999,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>!!</preview>
+                            <preview style="display: block;">
+                                <p>!!</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>!!</cont>
@@ -5887,10 +6025,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Oh my god, I cannot believe... Does Nestor talk to you? She told you that I am looking for someone? I'm gonna kill him!</preview>
+                            <preview style="display: block;">
+                                <p>Oh my god, I cannot believe... Does Nestor talk to you? She told you that I am looking for someone? Oh gosh.. I'm gonna kill him!</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Oh my god, I cannot believe... Does Nestor talk to you? She told you that I am looking for someone? I'm gonna kill him!</cont>
+                                <cont>Oh my god, I cannot believe... Does Nestor talk to you? She told you that I am looking for someone? Oh gosh.. I'm gonna kill him!</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5909,7 +6049,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Oh! Don't be upset! He just trying to help! I'm so sorry..</preview>
+                            <preview style="display: block;">
+                                <p>Oh! Don't be upset! He just trying to help! I'm so sorry..</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Oh! Don't be upset! He just trying to help! I'm so sorry..</cont>
@@ -5931,7 +6073,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Am I looking desperate these much for help?</preview>
+                            <preview style="display: block;">
+                                <p>Am I looking desperate these much for help?</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Am I looking desperate these much for help?</cont>
@@ -5953,10 +6097,12 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Look man, this is not the first time that he do that thing. I'll go talk about this with him later.. again! What I really need right now is go back to work. Bye.</preview>
+                            <preview style="display: block;">
+                                <p>Look man, this is not the first time that he do this thing. I'll go talk about this with him later.. again! What I really need right now is go back to work. Bye.</p>
+                            </preview>
                             <raw>
                                 <type>text</type>
-                                <cont>Look man, this is not the first time that he do that thing. I'll go talk about this with him later.. again! What I really need right now is go back to work. Bye.</cont>
+                                <cont>Look man, this is not the first time that he do this thing. I'll go talk about this with him later.. again! What I really need right now is go back to work. Bye.</cont>
                             </raw>
                         </content>
                     </node_line>
@@ -5977,7 +6123,9 @@ ok(115, 'true')
                                     <button>Finish Editing</button>
                                 </div>
                             </edit_region>
-                            <preview>Ohh... O..Ok.. nice to meet you... </preview>
+                            <preview style="display: block;">
+                                <span>&lt;Code&gt;</span>
+                            </preview>
                             <raw>
                                 <type>text</type>
                                 <cont>Ohh... O..Ok.. nice to meet you...</cont>

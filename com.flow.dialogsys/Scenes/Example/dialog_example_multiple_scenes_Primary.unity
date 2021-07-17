@@ -804,7 +804,7 @@ PrefabInstance:
     - target: {fileID: 1886269870635091389, guid: ef90c78ca6c0ead4e97792444ba1a0e9,
         type: 3}
       propertyPath: pathToTranslationFile
-      value: Packages\com.flow.dialogsys\Scripts\Example\animalkindom\animal_kindom.dlg_03.csv
+      value: Packages\com.flow.dialogsys\Scripts\Example\animalkindom\animal_kindom_03.csv
       objectReference: {fileID: 0}
     - target: {fileID: 8176458458758004140, guid: ef90c78ca6c0ead4e97792444ba1a0e9,
         type: 3}
