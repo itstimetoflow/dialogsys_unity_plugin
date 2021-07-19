@@ -1,6 +1,6 @@
 
 <div style="text-align: center">
-<img title="Logo" src="https://itstimetoflow.github.io/dialogsystem/images/logo.png" style="max-width: 400px">
+<img title="Logo" src="https://itstimetoflow.github.io/dialogsystem/images/logo.png" style="max-width:50%">
 </div>
 
 The new app to produce game dialogs.
