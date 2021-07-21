@@ -1,5 +1,5 @@
 ﻿using System;
-//using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -2032,6 +2032,48 @@ namespace DialogSysComp
         }
     }
 
+    public class WaitClass : MonoBehaviour
+    {
+        public bool waiting = false;
+        public bool start = false;
+
+        //public Wait()
+        //{
+        //    //StartCoroutine(WaitCoroutine(buttonPressed));
+        //}
+        void Start()
+        {
+
+        }
+        private void FixedUpdate()
+        {
+            if (start)
+            {
+                waiting = true;
+                StartCoroutine(WaitCoroutine());
+                start = false;
+            }
+        }
+
+        public void StartWait()
+        {
+            start = true;
+        }
+        public void StoptWait()
+        {
+            waiting = false;
+        }
+
+        IEnumerator WaitCoroutine()
+        {
+            Debug.Log("On Wait..----------------------------");
+            while (waiting == true)
+            {
+                Debug.Log("Waiting button be pressed..>>>>>>>>>>>>>>>>>>>>>>>>");
+                yield return null;
+            }
+        }
+    }
 
 
     /*
